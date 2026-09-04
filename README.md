@@ -15,7 +15,7 @@ No configuration files, keys or secrets are committed.
 
 WAN is a static public IP delivered by ISP DHCP reservation. This allow no CGNAT and a single inbound endpoint I control, on hardware I own, rather than a third-party relay like Tailscale sitting in the path.
 ## Trust model
-![Zone trust model: five VLAN zones plus guest](docs/trust-model.svg)
+![Zone trust model: five VLAN zones plus guest](docs/trust-model.jpg)
 
 The design assumes the most likely compromise is an internet-facing service or a
 device I don't control, so each zone is sized to be the blast radius of those devices.
