@@ -1,1 +1,6 @@
 .obsidian/
+.trash/
+*.privatekey
+*.psk
+*.conf
+.env
